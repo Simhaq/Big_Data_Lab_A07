@@ -90,4 +90,4 @@ if __name__ == "__main__":
     model_path = sys.argv[1]
     # start the exporter metrics service
     start_http_server(18000)
-    uvicorn.run(app)
+    uvicorn.run(app,host = '0.0.0.0',port = 8000)
