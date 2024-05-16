@@ -8,8 +8,8 @@ MNIST APP With Monitoring (Task 1):
 • Installed Grafana by following the steps mention here https://grafana.com/docs/grafana/latest/setup-grafana/installation/debian/ 
 • Visualization in Grafana is added from the prometheus data source for the metrics API runtime, total API calls, API memory utilization, API CPU utilization and API network I/O bytes.
 • To start the node-exporter enter the following command from work dir
-          cd node_exporter-1.8.0.linux-amd64/ 
-          ./node_exporter
+	cd node_exporter-1.8.0.linux-amd64/ 
+	./node_exporter
           
 • To start prometheus enter the following command from work dir:
           cd prometheus-2.45.5.linux-amd64/
