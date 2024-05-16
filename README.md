@@ -1,12 +1,19 @@
 MNIST APP With Monitoring (Task 1):
 
 • Modified the mnist api code to include the monitoring of metrics such as the api runtime and total api call counter using prometheus_client.
+
 • By default, these metrics are available at the address localhost:18000.
+
 • Downloaded the prometheus-monitoring and node-exporter precompiled binaries from https://prometheus.io/download/ 
+
 • Modified the prometheus.yml file to include metrics from node-exporter and from the mnist app.
+
 • By default, node-exporter logs the metrics in the address  localhost:9100 and prometheus has the default address localhost:9090.
+
 • Installed Grafana by following the steps mention here https://grafana.com/docs/grafana/latest/setup-grafana/installation/debian/ 
+
 • Visualization in Grafana is added from the prometheus data source for the metrics API runtime, total API calls, API memory utilization, API CPU utilization and API network I/O bytes.
+
 • To start the node-exporter enter the following command from work dir
 
 	cd node_exporter-1.8.0.linux-amd64/ 
